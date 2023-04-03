@@ -62,7 +62,7 @@ const values = [{
     TextDescription2:"Tomando clases universitarias, cursos en plataformas e instituciones, haciendo algunos proyectos para personas, grupos y dentro de mi institución universitaria. ",
     TextDescription3:"Estoy orientado en el frontend y backend, solo con ciertas herramientas, pero estoy en pleno proceso de ampliar mi uso de más framworks y lenguajes. ",
     TextDescription4:"Disfruto desarrollando interfaces, así como hacer que la interfaz sea dinámica con la gestión de bases de datos, tambien en  la optimización para un buen rendimiento de procesamiento y carga de sitios web y aplicaciones.",
-    btnDownload:"Descargar my CV",
+    btnDownload:"Descargar mi CV",
     skills:"Habilidades",
     front:"Desarrollador Web Frontend",
     back:"Desarrollador Web Backend",
