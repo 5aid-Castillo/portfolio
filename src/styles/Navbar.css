@@ -3,7 +3,7 @@
     background-color: var(--second-alpha-color);
     fill: white;
     border: 0;
-    border-radius: 5px;
+    border-radius: 10px !important;
     cursor: pointer;
     outline: thin solid white;
     padding: 0.4rem 0.8rem;

@@ -288,7 +288,6 @@ function Tabs() {
                               </div>
                               <div className='tools'>
                                 <ul>
-                                  <li className='react'>React</li>
                                   <li className='tailwind'>Tailwind</li>
                                   <li className='redux'>ReduxToolkit</li>
                                  

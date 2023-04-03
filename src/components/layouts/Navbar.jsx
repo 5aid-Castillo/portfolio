@@ -27,7 +27,7 @@ const Navbar = () => {
                             }
                     </button> */}
                     <button className='menu-btn'>
-                    <Hamburger toggled={mostrarBarra} toggle={setMostrarBarra} size={25} color='#ffff'/>
+                    <Hamburger toggled={mostrarBarra} toggle={setMostrarBarra} size={23} color='#ffff'/>
                     </button>
                     <div className={mostrarBarra ?"navigation-menu" : "navigation-menu expanded"}>
                             <HashLink onClick={close} to="#home">{idioma[language].Nhome}</HashLink>
