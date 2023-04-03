@@ -1,0 +1,150 @@
+/* Contact Form */
+.contact-form{
+  margin: 2rem auto;
+  padding: 1rem;
+  max-width: 800px;
+}
+.contact-form > *{
+  padding: 0.5rem;
+  margin: 1rem auto;
+  display: block;
+  width: 100%;
+}
+.contact-form input,
+.contact-form textarea{
+    font-size: 0.85rem;
+    font-family: var(--font);
+    }
+.contact-form input{
+  border: 0;
+  padding-left: 0;
+  border-bottom: thin solid var(--first-color);
+}
+.contact-form textarea{
+  border: thin solid var(--first-color);
+  resize: none;
+}
+.contact-form input[type="submit"]{
+  margin-top: 0;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+  background-color: var(--second-alpha-color);
+  color: white;
+}
+.contact-form input[type="submit"]:hover{
+  opacity: 0.75;
+}
+.contact-form *::placeholder{
+  color: var(--first-alpha-color);
+}
+
+@media screen and (min-width: 1024px){
+  .contact-form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 1rem;
+
+}
+.contact-form input,
+.contact-form textarea{
+    font-size: 1rem;
+}
+.contact-form textarea,
+.contact-form-loader{
+    grid-column: span 2;
+}
+.contact-form input[type="submit"]{
+    margin-left: 0;
+}
+}
+
+.btn-2{
+    /* ARREGLAR */
+    border-radius: .5rem;
+    padding: 1rem;
+    display: inline-block;
+    width: 200px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: var(--text-option-color);
+    background-color: var(--second-alpha-color);
+    border: 4px solid black;
+    margin: 1rem;
+  }
+  .btn-2:hover{
+    background-color: var(--first-alpha-color);
+      
+  }
+.contact-form-response{
+    padding: 1rem;
+    width: 400px;
+    text-align: center;
+    background-color: white;
+  }
+  .contact-form-response svg{
+    margin-top: 2rem;
+    width: 4rem;
+    height: 4rem;
+    fill:var(--first-color);
+  }
+  .contact-form *::placeholder{
+    color: var(--first-alpha-color);
+  }
+  .box-shadow-1{
+    box-shadow: 4px 4px 16px rgba(0,0,0,0.25);
+  }
+  .error {
+    color: #e92b2d;
+    font-weight: 600;
+    font-size: 12px;
+  }
+  .exito {
+    font-weight: 600;
+    font-size: 12px;
+    color: #02a802;
+  }
+  .modal#gracias:target{
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .modal{
+    position: fixed;
+    z-index: 999;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--black-alpha-color);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 1s;
+  }
+  .modal-content{
+    position: relative;
+  
+  }
+  .modal-close{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+  .modal-close svg{
+    width: 3rem;
+    height: 3rem;
+    fill: #084B8A;
+  }
+  .modal-content{
+    position: relative;
+  
+  }
+
+  @media screen and (min-width:1024px){
+    .contact-form-loader{
+        grid-column: span 2;
+      }
+
+  }

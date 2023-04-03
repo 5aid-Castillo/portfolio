@@ -1,0 +1,113 @@
+import { useState } from 'react';
+import Contexto from './Contexto';
+
+const values = [{
+    Nhome:"Home",
+    Nabout:"About",
+    Nportfolio:"Portfolio",
+    Ncontact:"Contact",
+    welcome:"Welcome",
+    site:"to my site",
+    btnContact:"CONTACT ME",
+    WB:"Web Developer",
+    TextDescription1: "Since 2018 I have been gaining experience in the area of web development.",
+    TextDescription2:"Taking university classes, courses on platforms and institutions, doing some projects for people, groups and within my university institution.", 
+    TextDescription3:"I am oriented on the frontend and backend, only with certain tools, but I am in the complete process of expanding my use of more more frameworks and languages.",
+    TextDescription4: "I enjoy developing interfaces as well as making the interface dynamic with database management, also in optimization for good processing and loading performance of web sites and applications.",
+    btnDownload:"Download my CV",
+    skills:"Skills",
+    front:"Frontend Web Developer",
+    back:"Backend Web Developer",
+    jobs_p:"My Personal Jobs",
+    jobs:"My Jobs",
+    p1:"Project 1",
+    p2:"Project 2",
+    p3:"Project 3",
+    desc_p1:"Web app for the sale of Mexican handicrafts called Alebrijes created by my client, this page had sections of cultural information about the products, explanation of the elaboration of these products and its system to make purchases online.",
+    desc_p2:"Web app to describe the details of the orders that are made through the Mercado Libre platform.",
+    desc_p3:"MarketPlace application for the sale of Mexican handicrafts, where users can sell and buy only these products, maintaining and developing a unique experience and supporting those who develop these products.",
+    contact:"Contact",
+    loc:"Location",
+    phone:"Phone Number",
+    FmName:"Your Name",
+    FmEmail:"email@example.com",
+    FmSubject:"Subject",
+    FmComments:"Comments",
+    Send:"Send Message",
+    link:"Link",
+    source:"Source",
+    descriptionP1:"Marketplace for the sale and purchase of Mexican handicrafts",
+    descriptionP2:"Auxiliary web application of a marketplace",
+    descriptionP3:"E-commerce for the sale of Mexican handicrafts",
+    descriptionP4:"Web application of tourist routes animated with framer motion",
+    descriptionP5:"Web application of beautiful unknown sites in Mexico",
+    descriptionP6:"Notes web app with Redux Toolkit",
+    descriptionP7:"Movie search web application making API requests",
+    descriptionP8:"Web application of the best beaches in Mexico",
+    descriptionP9:"Gourmet restaurant website",
+    descriptionP10:"Web application to rent houses and apartments in the USA and Canada",
+    descriptionP11:"Practice web application with kings",
+    descriptionP12:"Practice web application to hire a tourist guide",
+    cv:'https://drive.google.com/file/d/11NtVNITnmUQsXtKcvYm5XZ4BUER82ryh/view?usp=share_link'
+},{
+    Nhome:"Inicio",
+    Nabout:"Acerca",
+    Nportfolio:"Portafolio",
+    Ncontact:"Contacto",
+    welcome:"Bienvenido",
+    site:"a mi sitio",
+    btnContact:"CONTÁCTAME",
+    WB:"Desarrollador Web",
+    TextDescription1:"Desde 2018 he ido adquiriendo experiencia en el área de desarrollo web.",
+    TextDescription2:"Tomando clases universitarias, cursos en plataformas e instituciones, haciendo algunos proyectos para personas, grupos y dentro de mi institución universitaria. ",
+    TextDescription3:"Estoy orientado en el frontend y backend, solo con ciertas herramientas, pero estoy en pleno proceso de ampliar mi uso de más framworks y lenguajes. ",
+    TextDescription4:"Disfruto desarrollando interfaces, así como hacer que la interfaz sea dinámica con la gestión de bases de datos, tambien en  la optimización para un buen rendimiento de procesamiento y carga de sitios web y aplicaciones.",
+    btnDownload:"Descargar my CV",
+    skills:"Habilidades",
+    front:"Desarrollador Web Frontend",
+    back:"Desarrollador Web Backend",
+    jobs:"Mis Trabajos",
+    jobs_p:"Mis Trabajos Personales",
+    p1:"Proyecto 1",
+    p2:"Proyecto 2",
+    p3:"Proyecto 3",
+    desc_p1:"App web de venta de artesanías mexicanas llamadas Alebrijes creados por mi cliente, esta pagina contaba con secciones de informacion cultural de los productos, explicacion de la elaboracion de estos productos y su sistema para hacer compra online.",
+    desc_p2: "App web para describir el detalle de los pedidos que se realizan a través de la plataforma Mercado Libre.",
+    desc_p3: "Aplicación MarketPlace para la venta de artesanías mexicanas, donde los usuarios podrán vender y comprar únicamente estos productos, manteniendo y desarrollando una experiencia única y apoyando a quienes desarrollan estos productos.",
+
+    contact:"Contacto",
+    loc:"Ubicación",
+    phone:"Número de teléfono",
+    FmName:"Nombre",
+    FmEmail:"email@ejemplo.com *",
+    FmSubject:"Asunto",
+    FmComments:"Comentarios",
+    Send:"Enviar Mensaje",
+    link:"Enlace",
+    source:"Repositiorio",
+    descriptionP1:"Marketplace de venta y compra de artesanías mexicanas",
+    descriptionP2:"Aplicación web auxiliar de un marketplace",
+    descriptionP3:"E-commerce de venta de artesanías mexicanas",
+    descriptionP4:"Aplicacion web de rutas turisticas animada con framer motion",
+    descriptionP5:"Aplicación web de hermosos sitios desconocidos en México",
+    descriptionP6:"Aplicación web de notas con Redux Toolkit",
+    descriptionP7:"Aplicación web de busqueda de peliculas haciendo peticiones a API",
+    descriptionP8:"Aplicación web de las mejores playas de México",
+    descriptionP9:"Sitio web de un restaurante gourmet",
+    descriptionP10:"Aplicación web para rentar casas y departamentos en USA y Canada",
+    descriptionP11:"Aplicación web de práctica con reyes",
+    descriptionP12:"Aplicación web de práctica para contratar una guía turística",
+    cv:'https://drive.google.com/file/d/1KiWrokUcu1_miD1IFDk7bvyFi_K8c7MY/view?usp=share_link'
+},{
+    language:0
+}]
+
+const Provider = function({children}){
+    const [ idioma, setIdioma ] = useState(values);
+    return(
+        <Contexto.Provider value = {{ idioma,setIdioma }}>
+            {children}
+        </Contexto.Provider>
+    )
+}
+export default Provider;

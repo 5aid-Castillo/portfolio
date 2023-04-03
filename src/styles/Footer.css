@@ -1,0 +1,13 @@
+.footer{
+    margin-bottom: var(--header-height);
+    padding: 0.5rem;
+    text-align: center;
+    color: white;
+    background-color: var(--second-alpha-color);
+    }
+
+@media screen and (min-width:1024px){
+    .footer{
+        margin-bottom: 0;
+      }
+}

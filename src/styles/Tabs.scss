@@ -1,0 +1,107 @@
+
+/* Proyects */
+
+.projects{
+    padding-top: 3rem;
+        .mainContent{
+            justify-content: center;
+            gap: 1rem;
+            .single-proyect{
+                overflow: hidden;
+                border-radius: 1rem;
+                height: 100%;
+                display: grid;
+                row-gap: 10px;
+                box-shadow: 0 2px 8px 2px rgba(178,178,178,0.45);
+                .proyImage{
+                    height: 200px;
+                    width: 100%;
+                    position: relative;
+                    overflow: hidden;
+                    a{
+                        img{
+                         height: 100%;
+                         width: 100%;
+                         object-fit: cover;
+                        }
+                    }
+                }
+                .proyFooter{
+                    padding: 1rem; 
+
+                    .descProyect{
+                        font-size: 1rem;
+                        font-weight: 700;
+                        color: black;
+                        /* position: relative; */
+                       padding: 10px;
+                        word-break: normal;
+
+                      
+                    /*     &::after{
+                            content: '';
+                            position: absolute;
+                            background:var(--first-color);
+                            top:45%;
+                            right: -150%;
+                            height: 5px;
+                            width: 45px;
+                            border-radius: 1rem;
+                        } */
+                    }
+                    .sourceBtn{
+                     /*   padding: 0 1rem 1rem 1rem; */
+                        justify-content: space-between ;
+
+                        small{
+                            color: black;
+                            font-size: 10px;
+                            
+                        }
+                        a{
+                            background-color: var(--second-alpha-color);
+                            color: white;
+                            padding: 0.5rem 0.9rem;
+                            border-radius: 5px;
+                            margin-top: 0.5rem;
+                            cursor: pointer;
+                        }
+
+                        .flex{
+                            font-size: 16px;
+                            font-weight: 600;
+                            align-items: flex-start;
+                            transform: translateY(5px);
+                        }
+                    }
+                 } 
+            }
+        }
+
+}
+
+
+@media screen and (min-width:480px){
+    .projects{
+        padding-top: 10rem;
+    }
+}
+
+@media screen and (min-width:720px){
+    .projects{
+        padding-top: 7rem;
+    }
+}
+
+@media screen and (min-width:1024px){
+    .projects{
+      
+       
+            .mainContent{
+              
+                grid-template-columns: repeat(3,1fr);
+                gap: 1.5rem !important; 
+            }
+        }
+    
+}
