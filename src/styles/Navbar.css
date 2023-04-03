@@ -5,7 +5,7 @@
     border: 0;
     border-radius: 10px !important;
     cursor: pointer;
-    outline: thin solid white;
+   /*  outline: thin solid white; */
     padding: 0.4rem 0.8rem;
   }
   .navigation-menu {
