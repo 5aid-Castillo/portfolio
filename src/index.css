@@ -114,3 +114,18 @@ p{
       text-align: right;
   }
 }
+
+@media screen and (min-width: 2560px){
+  body{
+      zoom: 1.7;
+  }
+}
+::-webkit-scrollbar{
+  width: 10px;
+  background:  hsl(0, 0%, 93%);
+}
+::-webkit-scrollbar-thumb{
+  background: var(--second-alpha-color);
+  border-radius: 10px;
+  cursor: pointer;
+}
