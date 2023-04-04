@@ -10,7 +10,7 @@ const values = [{
     site:"to my site",
     btnContact:"CONTACT ME",
     WB:"Web Developer",
-    TextDescription1: "Since 2018 I have been gaining experience in the area of web development.",
+    TextDescription1: "Since 2018 I have been getting experience in the area of web development.",
     TextDescription2:"Taking university classes, courses on platforms and institutions, doing some projects for people, groups and within my university institution.", 
     TextDescription3:"I am oriented on the frontend and backend, only with certain tools, but I am in the complete process of expanding my use of more more frameworks and languages.",
     TextDescription4: "I enjoy developing interfaces as well as making the interface dynamic with database management, also in optimization for good processing and loading performance of web sites and applications.",
