@@ -48,7 +48,7 @@ const values = [{
     descriptionP10:"Web application to rent houses and apartments in the USA and Canada",
     descriptionP11:"Practice web application with kings",
     descriptionP12:"Practice web application to hire a tourist guide",
-    cv:'https://drive.google.com/file/d/1sThfVncGxldRShPOP3yyIl6tgPRwxzgD/view?usp=share_link'
+    cv:'https://drive.google.com/file/d/19nlVMUmpHIm4D_ymRtdst6zIcmYHHlq4/view?usp=share_link'
 },{
     Nhome:"Inicio",
     Nabout:"Acerca",
@@ -97,7 +97,7 @@ const values = [{
     descriptionP10:"Aplicación web para rentar casas y departamentos en USA y Canada",
     descriptionP11:"Aplicación web de práctica con reyes",
     descriptionP12:"Aplicación web de práctica para contratar una guía turística",
-    cv:'https://drive.google.com/file/d/1fEydUrZ1e6vkGd9pUeGvuYXSP23dYxUy/view?usp=share_link'
+    cv:'https://drive.google.com/file/d/1bHkjjWpxhNBxclnMRkClFZ-neSJMdegj/view?usp=share_link'
 },{
     language:0
 }]
