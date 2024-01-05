@@ -9,7 +9,8 @@ import 'aos/dist/aos.css'
 
 import img1 from '../../assets/screen-projects/artxicans.png';
 import img2 from '../../assets/screen-projects/img2.jpg';
-import img3 from '../../assets/screen-projects/img1.jpg';
+/* import img3 from '../../assets/screen-projects/img1.jpg'; */
+import img3 from '../../assets/screen-projects/universodetupiel.png';
 import img4 from '../../assets/screen-projects/travel.png';
 import img5 from '../../assets/screen-projects/trip.png';
 import img6 from '../../assets/screen-projects/tasks.png';
@@ -162,7 +163,7 @@ function Tabs() {
                   
                         <div className='single-proyect'>
                             <div className='proyImage'>
-                                <a href="https://github.com/5aid-Castillo/artxicans/tree/main/artxicans" target='__blank'><img src={img1} alt="" /></a>
+                                <a href="https://www.artxicans.com/" target='__blank'><img src={img1} alt="" /></a>
                             </div>
                             <div className='proyFooter'>
                               <div className='descProyect'>
@@ -170,8 +171,8 @@ function Tabs() {
                               </div>
                               <div className='tools'>
                                 <ul>
-                                  <li className='react'>React</li>
-                                  <li className='sass'>Sass</li>
+                                  <li className='php'>PHP</li>
+                                  <li className='javascript'>Javascript</li>
                                  
                                 </ul>
                               </div>
@@ -204,7 +205,7 @@ function Tabs() {
                         </div>
                         <div className='single-proyect'>
                             <div className='proyImage'>
-                                <a href="https://github.com/5aid-Castillo/artes-mex" target='__blank'><img src={img3} alt="" /></a>
+                                <a href="https://universodetupiel.com" target='__blank'><img src={img3} alt="" /></a>
                             </div>
                             <div className='proyFooter'>
                               <div className='descProyect'>
@@ -218,8 +219,8 @@ function Tabs() {
                                 </ul>
                               </div>
                               <div className='sourceBtn flex'>
-                                <a href='https://github.com/5aid-Castillo/artes-mex' target='__blank'>{idioma[language].source}</a>
-                                <a href='https://youtu.be/z2-l3TFDMJ4' target='__blank'>{idioma[language].link}</a>
+                                <a href='https://github.com/5aid-Castillo/Derma-site' target='__blank'>{idioma[language].source}</a>
+                                <a href='https://universodetupiel.com' target='__blank'>{idioma[language].link}</a>
                               </div>
                             </div>
                         </div>
@@ -236,27 +237,7 @@ function Tabs() {
                
                     <div className='mainContent grid'>
                    
-                        <div  className='single-proyect'>
-                            <div className='proyImage'>
-                               <a href="https://5aid-castillo.github.io/Rutas/" target='__blank'><img src={img4} alt="" /></a>
-                            </div>
-                            <div className='proyFooter'>
-                              <div className='descProyect'>
-                                <small>{idioma[language].descriptionP4}</small>
-                              </div>
-                              <div className='tools'>
-                                <ul>
-                                  <li className='react'>React</li>
-                                  <li className='framer'>Framer Motion</li>
-                                 
-                                </ul>
-                              </div>
-                              <div className='sourceBtn flex'>
-                                <a href='https://github.com/5aid-Castillo/Rutas' target='__blank'>{idioma[language].source}</a>
-                                <a href='https://5aid-castillo.github.io/Rutas/' target='__blank'>{idioma[language].link}</a>
-                              </div>
-                            </div>
-                        </div>
+                       
                         <div  className='single-proyect'>
                             <div className='proyImage'>
                               <a href="https://5aid-castillo.github.io/PlanTrip/" target='__blank'><img src={img5} alt="" /></a>
@@ -278,6 +259,7 @@ function Tabs() {
                               </div>
                             </div>
                         </div>
+
                         <div  className='single-proyect'>
                             <div className='proyImage'>
                               <a href="https://5aid-castillo.github.io/Tasks/" target='__blank'><img src={img6} alt="" /></a>
@@ -320,7 +302,47 @@ function Tabs() {
                               </div>
                             </div>
                         </div>
-                        <div  className='single-proyect'>
+                       
+                     {/*    <div  className='single-proyect'>
+                            <div className='proyImage'>
+                              <a href="https://5aid-castillo.github.io/Cultivo/" target='__blank'><img src={img9} alt="" /></a>
+                            </div>
+                            <div className='proyFooter'>
+                              <div className='descProyect'>
+                                <small>{idioma[language].descriptionP9}</small>
+                              </div>
+                              <div className='tools'>
+                                <ul>
+                                  <li className='react'>React</li>
+                                  <li>ReactBootstrap</li>
+                                 
+                                </ul>
+                              </div>
+                              <div className='sourceBtn flex'>
+                                <a href='https://github.com/5aid-Castillo/Cultivo' target='__blank'>{idioma[language].source}</a>
+                                <a href='https://5aid-castillo.github.io/Cultivo/' target='__blank'>{idioma[language].link}</a>
+                              </div>
+                            </div>
+                        </div> */}
+                   
+                    </div>
+                
+            </div>
+         
+          </div>
+  
+          <div
+            className={toggleState === 3 ? "content  active-content" : "content"}
+          >
+
+               
+
+              <div className='projects section container'>
+                    <div className='mainContent grid'>
+
+
+
+                    <div  className='single-proyect'>
                             <div className='proyImage'>
                                 <a href="https://5aid-castillo.github.io/BeachesApp/" target='__blank'><img src={img8} alt="" /></a>
                             </div>
@@ -341,39 +363,6 @@ function Tabs() {
                               </div>
                             </div>
                         </div>
-                        <div  className='single-proyect'>
-                            <div className='proyImage'>
-                              <a href="https://5aid-castillo.github.io/Cultivo/" target='__blank'><img src={img9} alt="" /></a>
-                            </div>
-                            <div className='proyFooter'>
-                              <div className='descProyect'>
-                                <small>{idioma[language].descriptionP9}</small>
-                              </div>
-                              <div className='tools'>
-                                <ul>
-                                  <li className='react'>React</li>
-                                  <li>ReactBootstrap</li>
-                                 
-                                </ul>
-                              </div>
-                              <div className='sourceBtn flex'>
-                                <a href='https://github.com/5aid-Castillo/Cultivo' target='__blank'>{idioma[language].source}</a>
-                                <a href='https://5aid-castillo.github.io/Cultivo/' target='__blank'>{idioma[language].link}</a>
-                              </div>
-                            </div>
-                        </div>
-                   
-                    </div>
-                
-            </div>
-         
-          </div>
-  
-          <div
-            className={toggleState === 3 ? "content  active-content" : "content"}
-          >
-              <div className='projects section container'>
-                    <div className='mainContent grid'>
                    
                         <div className='single-proyect'>
                             <div className='proyImage'>
@@ -396,6 +385,9 @@ function Tabs() {
                               </div>
                               </div> 
                         </div>
+
+                        
+                       
                         <div className='single-proyect'>
                             <div className='proyImage'>
                                <a href="https://5aid-castillo.github.io/Reyes/" target='__blank'><img src={img11} alt="" /></a>
@@ -416,7 +408,30 @@ function Tabs() {
                               </div>
                             </div>
                         </div>
-                        <div className='single-proyect'>
+
+                        <div  className='single-proyect'>
+                            <div className='proyImage'>
+                               <a href="https://5aid-castillo.github.io/Rutas/" target='__blank'><img src={img4} alt="" /></a>
+                            </div>
+                            <div className='proyFooter'>
+                              <div className='descProyect'>
+                                <small>{idioma[language].descriptionP4}</small>
+                              </div>
+                              <div className='tools'>
+                                <ul>
+                                  <li className='react'>React</li>
+                                  <li className='framer'>Framer Motion</li>
+                                 
+                                </ul>
+                              </div>
+                              <div className='sourceBtn flex'>
+                                <a href='https://github.com/5aid-Castillo/Rutas' target='__blank'>{idioma[language].source}</a>
+                                <a href='https://5aid-castillo.github.io/Rutas/' target='__blank'>{idioma[language].link}</a>
+                              </div>
+                            </div>
+                        </div>
+
+                     {/*    <div className='single-proyect'>
                             <div className='proyImage'>
                               <a href="https://5aid-castillo.github.io/Reservacion/" target='__blank'><img src={img12} alt="" /> </a>
                             </div>
@@ -435,7 +450,7 @@ function Tabs() {
                               </div>
                             </div>
                         </div>
-                 
+                  */}
                     </div>
                 
             </div>

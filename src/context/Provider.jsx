@@ -11,8 +11,8 @@ const values = [{
     btnContact:"CONTACT ME",
     WB:"Web Developer",
     TextDescription1: "Since 2018 I have been getting experience in the area of web development.",
-    TextDescription2:"Taking university classes, courses on platforms and institutions, doing some projects for people, groups and within my university institution.", 
-    TextDescription3:"I am oriented on the frontend and backend, only with certain tools, but I am in the complete process of expanding my use of more more frameworks and languages.",
+    TextDescription2:"Taking university classes, courses on platforms and institutions, doing some projects for customers, groups and within my university institution.", 
+    TextDescription3:"I am oriented in the frontend and backend, every day I strive to reinforce my previous knowledge, gain more knowledge in frameworks and programming languages.",
     TextDescription4: "I enjoy developing interfaces as well as making the interface dynamic with database management, also in optimization for good processing and loading performance of web sites and applications.",
     btnDownload:"Download my CV",
     skills:"Skills",
@@ -38,7 +38,7 @@ const values = [{
     source:"Source",
     descriptionP1:"Marketplace for the sale and purchase of Mexican handicrafts",
     descriptionP2:"Auxiliary web application of a marketplace",
-    descriptionP3:"E-commerce for the sale of Mexican handicrafts",
+    descriptionP3:"E-commerce for a dermatology clinic",
     descriptionP4:"Web application of tourist routes animated with framer motion",
     descriptionP5:"Web application of beautiful unknown sites in Mexico",
     descriptionP6:"Notes web app with Redux Toolkit",
@@ -48,7 +48,7 @@ const values = [{
     descriptionP10:"Web application to rent houses and apartments in the USA and Canada",
     descriptionP11:"Practice web application with kings",
     descriptionP12:"Practice web application to hire a tourist guide",
-    cv:'https://drive.google.com/file/d/19nlVMUmpHIm4D_ymRtdst6zIcmYHHlq4/view?usp=share_link'
+    cv:'https://drive.google.com/file/d/1iZ7lgSTEg1JG_V9jRMVZ643l5kE7FuAD/view?usp=drive_link'
 },{
     Nhome:"Inicio",
     Nabout:"Acerca",
@@ -59,8 +59,8 @@ const values = [{
     btnContact:"CONTÁCTAME",
     WB:"Desarrollador Web",
     TextDescription1:"Desde 2018 he ido adquiriendo experiencia en el área de desarrollo web.",
-    TextDescription2:"Tomando clases universitarias, cursos en plataformas e instituciones, haciendo algunos proyectos para personas, grupos y dentro de mi institución universitaria. ",
-    TextDescription3:"Estoy orientado en el frontend y backend, solo con ciertas herramientas, pero estoy en pleno proceso de ampliar mi uso de más framworks y lenguajes. ",
+    TextDescription2:"Tomando clases universitarias, cursos en plataformas e instituciones, haciendo algunos proyectos para clientes, grupos y dentro de mi institución universitaria. ",
+    TextDescription3:"Estoy orientado en el frontend y backend, todos los días me esfuerzo en reforzar mis conocimientos previos, ampliar más mis conocimientos en frameworks y lenguajes de programación. ",
     TextDescription4:"Disfruto desarrollando interfaces, así como hacer que la interfaz sea dinámica con la gestión de bases de datos, tambien en  la optimización para un buen rendimiento de procesamiento y carga de sitios web y aplicaciones.",
     btnDownload:"Descargar mi CV",
     skills:"Habilidades",
@@ -87,7 +87,7 @@ const values = [{
     source:"Repositiorio",
     descriptionP1:"Marketplace de venta y compra de artesanías mexicanas",
     descriptionP2:"Aplicación web auxiliar de un marketplace",
-    descriptionP3:"E-commerce de venta de artesanías mexicanas",
+    descriptionP3:"E-commerce para una clínica de dermatología",
     descriptionP4:"Aplicacion web de rutas turisticas animada con framer motion",
     descriptionP5:"Aplicación web de hermosos sitios desconocidos en México",
     descriptionP6:"Aplicación web de notas con Redux Toolkit",
@@ -97,7 +97,7 @@ const values = [{
     descriptionP10:"Aplicación web para rentar casas y departamentos en USA y Canada",
     descriptionP11:"Aplicación web de práctica con reyes",
     descriptionP12:"Aplicación web de práctica para contratar una guía turística",
-    cv:'https://drive.google.com/file/d/1bHkjjWpxhNBxclnMRkClFZ-neSJMdegj/view?usp=share_link'
+    cv:'https://drive.google.com/file/d/1lyoDldbfZ01NjpYD3tuUyTSqLMguwsA4/view?usp=drive_link'
 },{
     language:0
 }]
