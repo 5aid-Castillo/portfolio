@@ -11,7 +11,7 @@ const values = [{
     btnContact:"CONTACT ME",
     WB:"Web Developer",
     TextDescription1: "Since 2018 I have been getting experience in the area of web development.",
-    TextDescription2:"Taking university classes, courses on platforms and institutions, doing some projects for customers, groups and within my university institution.", 
+    TextDescription2:"Taking university classes, courses on platforms and institutions, doing some projects for clients, groups and within my university institution.", 
     TextDescription3:"I am oriented in the frontend and backend, every day I strive to reinforce my previous knowledge, gain more knowledge in frameworks and programming languages.",
     TextDescription4: "I enjoy developing interfaces as well as making the interface dynamic with database management, also in optimization for good processing and loading performance of web sites and applications.",
     btnDownload:"Download my CV",
